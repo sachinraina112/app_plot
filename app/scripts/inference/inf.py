@@ -6,8 +6,8 @@ import shap
 import logging
 logger = logging.getLogger(__name__)
 
-model = joblib.load('./scripts/models/xgbmodel.joblib')
-config = json.load(open('./scripts/models/config.json'))
+model = joblib.load('./app/scripts/models/xgbmodel.joblib')
+config = json.load(open('./app/scripts/models/config.json'))
 
 def get_dict_pred(dt_):
     k1 = []
