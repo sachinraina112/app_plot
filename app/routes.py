@@ -1,6 +1,8 @@
 from flask import Flask
 
 app = Flask(__name__)
+import os
+print(os.getcwd())
 import json, plotly
 from flask import render_template, request
 from scripts.GetDataForPlots import return_figures
