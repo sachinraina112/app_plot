@@ -60,7 +60,7 @@ def return_figures(keyword):
         )
     )
 
-    layout_one = dict(title='Features with least contribution to prediction',
+    layout_one = dict(title='Features with highest contribution to prediction',
                       xaxis=dict(title='Features', automargin=True),
                       yaxis=dict(title='Shap Values'),
                       )
